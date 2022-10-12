@@ -1,3 +1,11 @@
 .footer {
   margin: 64px 16px 24px;
 }
+
+@media screen and (min-width: 768px) {
+  .footer {
+    margin: 88px 24px 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
