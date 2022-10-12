@@ -2,7 +2,7 @@
   margin: 0 16px 64px;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .photo-grid {
     margin: 0 24px 88px;
   }
