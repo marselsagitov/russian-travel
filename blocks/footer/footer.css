@@ -1,10 +1,18 @@
 .footer {
-  margin: 64px 16px 24px;
+  margin: 0 16px 24px;
 }
 
 @media screen and (min-width: 768px) {
   .footer {
-    margin: 88px 24px 24px;
+    margin: 0 24px 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    margin: 0 48px 24px;
     display: flex;
     justify-content: space-between;
   }
