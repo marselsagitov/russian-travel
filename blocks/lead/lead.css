@@ -12,15 +12,21 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) {
   .lead {
     margin: 0 auto 92px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead {
     width: calc(100% - 2 * 48px);
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
+    margin: 0 auto 92px;
     width: calc(100% - 2 * 148px);
   }
 }
